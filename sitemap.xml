@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Accueil FR -->
+  <url>
+    <loc>https://pictoryavis.com/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Accueil EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Hub Blog FR -->
+  <url>
+    <loc>https://pictoryavis.com/blog</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/blog-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Hub Blog EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/blog</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/blog-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Article FR -->
+  <url>
+    <loc>https://pictoryavis.com/blog-1</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/youtube-pictory-guide.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Article EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/blog-1</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/youtube-pictory-guide.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Mentions légales FR -->
+  <url>
+    <loc>https://pictoryavis.com/mentions-legales</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/legal-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Legal Notice EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/legal-notice</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/legal-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Politique de confidentialité FR -->
+  <url>
+    <loc>https://pictoryavis.com/politique-de-confidentialite</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/privacy-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/privacy-policy</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/privacy-social-share.jpg</image:loc>
+    </image:image>
+  </url>
+
+</urlset>

@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - PictoryAvis</title>
+    <meta name="description" content="Politique de confidentialité PictoryAvis : données collectées, finalités, base légale RGPD, durée de conservation, cookies utilisés, droits d'accès ou de suppression et moyens de contact.">
+    <meta name="robots" content="index, follow">
+    <!-- Empêcher la traduction automatique sur la page légale -->
+    <meta name="google" content="notranslate">
+    
+    <!-- Balises SEO -->
+    <link rel="canonical" href="https://pictoryavis.com/politique-de-confidentialite">
+    <link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite">
+    <link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy">
+    <link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy">
+    
+    <!-- Meta Social -->
+    <meta property="og:title" content="Politique de confidentialité - PictoryAvis">
+    <meta property="og:description" content="Politique de confidentialité de PictoryAvis. Découvrez comment nous protégeons vos données personnelles.">
+    <meta property="og:image" content="https://pictoryavis.com/images/privacy-social-share.jpg">
+    <meta property="og:url" content="https://pictoryavis.com/politique-de-confidentialite">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="PictoryAvis">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Politique de confidentialité - PictoryAvis">
+    <meta name="twitter:description" content="Politique de confidentialité de PictoryAvis. Découvrez comment nous protégeons vos données personnelles.">
+    <meta name="twitter:image" content="https://pictoryavis.com/images/privacy-social-share.jpg">
+    
+    <!-- Consent Mode v2 (par défaut en refus) + Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      // Consentement par défaut (refus) - sera mis à jour via la bannière cookies
+      gtag('consent','default',{
+        'ad_storage':'denied',
+        'ad_user_data':'denied',
+        'ad_personalization':'denied',
+        'analytics_storage':'denied',
+        'functionality_storage':'granted',
+        'personalization_storage':'granted',
+        'security_storage':'granted'
+      });
+    </script>
+      <script>
+    function initAnalyticsCore() {
+      gtag('js', new Date());
+      gtag('config', 'G-RSC5B64V1R', { 'anonymize_ip': true });
+      (function () {
+        function getCookie(n) {
+          return document.cookie.split('; ').reduce((r, v) => {
+            const p = v.split('=');
+            return p[0] === n ? decodeURIComponent(p[1]) : r;
+          }, '');
+        }
+        if (getCookie('cookie_consent') === 'yes') {
+          gtag('consent', 'update', {
+            'analytics_storage': 'granted',
+            'ad_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted'
+          });
+        }
+      })();
+    }
+    function loadAnalytics() {
+      if (window.__gaInitialized) return;
+      window.__gaInitialized = true;
+      if (window.__gaScriptLoaded) {
+        initAnalyticsCore();
+        return;
+      }
+      var script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RSC5B64V1R';
+      script.async = true;
+      script.onload = initAnalyticsCore;
+      document.head.appendChild(script);
+      window.__gaScriptLoaded = true;
+    }
+    function hasAnalyticsConsent() {
+      try {
+        return document.cookie.split('; ').some(function (pair) {
+          var parts = pair.split('=');
+          return parts[0] === 'cookie_consent' && decodeURIComponent(parts[1] || '') === 'yes';
+        });
+      } catch (e) {
+        return false;
+      }
+    }
+    if (hasAnalyticsConsent()) {
+      const scheduleAnalytics = () => {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadAnalytics, { timeout: 5000 });
+        } else {
+          setTimeout(loadAnalytics, 1500);
+        }
+      };
+      if (document.readyState === 'complete') {
+        scheduleAnalytics();
+      } else {
+        window.addEventListener('load', scheduleAnalytics, { once: true });
+      }
+    }
+  </script>
+
+
+    <!-- Preconnect (perf) -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://www.youtube.com" crossorigin>
+    <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+    <link rel="preconnect" href="https://s.ytimg.com" crossorigin>
+        
+    <!-- Preload -->
+    <link rel="preload" href="fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="CSS/style.min.css" as="style">
+        
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/fonts.css">    <link rel="stylesheet" href="CSS/style.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    
+    <!-- Schema.org : Organization -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"Organization",
+      "name":"E-Com Shop",
+      "url":"https://pictoryavis.com/",
+      "logo":"https://pictoryavis.com/images/favicon.png",
+      "sameAs":[
+        "https://www.youtube.com/@ByeByeSalariat"
+      ]
+    }
+    </script>
+
+    <!-- Schema.org : WebSite (+ SearchAction recommandé) -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"WebSite",
+      "name":"PictoryAvis",
+      "url":"https://pictoryavis.com/"
+    }
+    </script>
+
+    <!-- Schema.org : WebPage (conservé) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Politique de confidentialité",
+      "description": "Politique de protection des données personnelles de PictoryAvis",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PictoryAvis",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://pictoryavis.com/images/favicon.png"
+        }
+      },
+      "mainEntityOfPage": "https://pictoryavis.com/politique-de-confidentialite"
+    }
+    </script>
+
+    <!-- Script de détection de langue -->
+    <script src="/js/lang-redirect.min.js" defer></script>
+
+    <style>
+        .privacy-container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .privacy-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .privacy-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .privacy-section {
+            margin-bottom: 30px;
+            background: var(--light-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+        .privacy-section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .privacy-list {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+        .privacy-list li {
+            margin-bottom: 10px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .back-link:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+<header class="header">
+  <div class="logo" itemscope itemtype="https://schema.org/Organization">
+    <a href="/" itemprop="url">PictoryAvis</a>
+    <meta itemprop="name" content="PictoryAvis">
+  </div>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="/">Accueil</a>
+    <a href="/blog">Blog</a>
+    <a href="/mentions-legales">Mentions légales</a>
+    <a href="/politique-de-confidentialite" aria-current="page">Confidentialité</a>
+  </nav>
+  <div class="language-switcher">
+    <a href="/politique-de-confidentialite" hreflang="fr" aria-current="page">FR</a> |
+    <a href="/en/privacy-policy" hreflang="en">EN</a>
+  </div>
+  <a href="https://pictory.ai/?ref=b3udp" class="cta-button" rel="noopener noreferrer">Essai Gratuit</a>
+</header>
+
+    <main class="privacy-container notranslate" translate="no">
+        <div class="privacy-header">
+            <h1>Politique de confidentialité</h1>
+            <p class="subtitle">Dernière mise à jour : juillet 2025</p>
+        </div>
+
+        <section class="privacy-section">
+            <h2>Préambule</h2>
+            <p>
+                Cette politique de confidentialité s'applique au site <strong>PictoryAvis</strong> (https://pictoryavis.com), édité par la société <strong>E-Com Shop</strong>, 60 rue François 1er, 75008 PARIS. Nous nous engageons à protéger la vie privée de nos visiteurs et à traiter leurs données personnelles conformément à la législation en vigueur, notamment le RGPD.
+            </p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Données collectées</h2>
+            <ul class="privacy-list">
+                <li>Adresse e-mail (via formulaire de contact ou inscription à la newsletter)</li>
+                <li>Données de navigation (cookies, statistiques, outils d'analyse comme Google Analytics)</li>
+                <li>Informations de paiement (uniquement pour les transactions, traitées par nos prestataires de paiement sécurisés)</li>
+                <li>Données démographiques (âge, sexe, localisation - si fournies volontairement)</li>
+                <li>Historique des interactions avec notre service client</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Finalité de la collecte</h2>
+            <ul class="privacy-list">
+                <li>Gestion des demandes de contact et support client</li>
+                <li>Envoi d'informations ou offres promotionnelles (newsletter, affiliation)</li>
+                <li>Analyse statistique de la fréquentation du site</li>
+                <li>Amélioration de l'expérience utilisateur et personnalisation du contenu</li>
+                <li>Exécution des services souscrits et traitement des transactions</li>
+                <li>Prévention des fraudes et sécurité du site</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section" id="cookies">
+            <h2>Cookies</h2>
+            <p>
+                Le site utilise différents types de cookies :
+            </p>
+            <ul class="privacy-list">
+                <li><strong>Cookies essentiels :</strong> Nécessaires au fonctionnement du site</li>
+                <li><strong>Cookies de performance :</strong> Pour analyser l'utilisation du site (Google Analytics)</li>
+                <li><strong>Cookies de fonctionnalité :</strong> Pour mémoriser vos préférences</li>
+                <li><strong>Cookies marketing :</strong> Pour personnaliser les publicités</li>
+            </ul>
+            <p>Vous pouvez accepter ou refuser les cookies via la bannière dédiée. Les cookies sont conservés pour une durée maximale de 13 mois.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Partage des données</h2>
+            <p>
+                Les données ne sont jamais vendues à des tiers. Elles peuvent être partagées uniquement avec :
+            </p>
+            <ul class="privacy-list">
+                <li>Nos prestataires techniques pour l'hébergement ou l'analyse de trafic</li>
+                <li>Les autorités judiciaires ou administratives sur demande légale</li>
+                <li>Nos partenaires de paiement pour les transactions (Stripe, PayPal)</li>
+                <li>Nos outils marketing (Mailchimp pour les newsletters)</li>
+            </ul>
+            <p>Tous nos partenaires sont conformes au RGPD et basés dans l'UE ou dans des pays offrant une protection adéquate.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Durée de conservation</h2>
+            <p>
+                Les données sont conservées le temps strictement nécessaire aux finalités décrites ci-dessus :
+            </p>
+            <ul class="privacy-list">
+                <li>Données de contact : 3 ans après le dernier contact</li>
+                <li>Données de navigation : 13 mois</li>
+                <li>Données transactionnelles : 10 ans (obligation légale)</li>
+                <li>Données marketing : 3 ans après la dernière interaction</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Vos droits</h2>
+            <p>
+                Conformément au RGPD, vous disposez des droits suivants sur vos données :
+            </p>
+            <ul class="privacy-list">
+                <li><strong>Droit d'accès :</strong> Obtenir une copie de vos données</li>
+                <li><strong>Droit de rectification :</strong> Corriger des données inexactes</li>
+                <li><strong>Droit à l'effacement :</strong> Demander la suppression de vos données</li>
+                <li><strong>Droit à la limitation :</strong> Restreindre le traitement de vos données</li>
+                <li><strong>Droit à la portabilité :</strong> Récupérer vos données dans un format structuré</li>
+                <li><strong>Droit d'opposition :</strong> S'opposer au traitement pour des raisons légitimes</li>
+            </ul>
+            <p>Pour exercer vos droits, contactez-nous à <a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a>. Nous répondrons dans un délai maximum d'un mois.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Sécurité</h2>
+            <p>
+                Toutes les précautions nécessaires sont prises pour protéger vos données :
+            </p>
+            <ul class="privacy-list">
+                <li>Chiffrement SSL/TLS pour toutes les transmissions de données</li>
+                <li>Hébergement sécurisé en Europe avec protection contre les intrusions</li>
+                <li>Protection contre les accès non autorisés par pare-feu et authentification</li>
+                <li>Sauvegardes régulières et chiffrées</li>
+                <li>Formation de notre personnel aux bonnes pratiques de sécurité</li>
+            </ul>
+            <p>En cas de violation de données, nous nous engageons à notifier les autorités compétentes (CNIL) et les utilisateurs concernés dans les 72 heures.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Sous-traitants</h2>
+            <p>
+                Nous travaillons avec les sous-traitants suivants qui peuvent avoir accès à certaines données :
+            </p>
+            <ul class="privacy-list">
+                <li><strong>Netlify :</strong> Hébergement du site web</li>
+                <li><strong>Google Analytics :</strong> Analyse du trafic</li>
+                <li><strong>Mailchimp :</strong> Envoi des newsletters</li>
+                <li><strong>Stripe :</strong> Traitement des paiements</li>
+            </ul>
+            <p>Tous nos sous-traitants sont conformes au RGPD et nous avons signé avec eux des accords de traitement des données.</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Transferts hors UE</h2>
+            <p>
+                Certains de nos sous-traitants peuvent transférer des données hors de l'Union Européenne. Dans ce cas, nous nous assurons que :
+            </p>
+            <ul class="privacy-list">
+                <li>Le pays bénéficie d'une décision d'adéquation de la Commission Européenne</li>
+                <li>Les clauses contractuelles types de la Commission Européenne sont mises en place</li>
+                <li>Des mesures de sécurité supplémentaires sont appliquées</li>
+            </ul>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Contact</h2>
+            <p>
+                Pour toute question ou réclamation concernant vos données, vous pouvez :
+            </p>
+            <ul class="privacy-list">
+                <li>Écrire à : <a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a></li>
+                <li>Envoyer un courrier à : E-Com Shop, 60 rue François 1er, 75008 PARIS</li>
+            </ul>
+            <p>Vous avez également le droit d'introduire une réclamation auprès de la CNIL (www.cnil.fr).</p>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Mises à jour</h2>
+            <p>
+                Cette politique de confidentialité peut être mise à jour pour refléter les évolutions légales ou techniques. La version actuelle est datée du juillet 2025.
+            </p>
+            <p>Nous vous informerons des modifications importantes par email ou via une notification visible sur notre site.</p>
+        </section>
+
+        <a href="/" class="back-link">
+            <i class="fas fa-arrow-left" aria-hidden="true"></i> Retour à la page d'accueil
+        </a>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p>&copy; <span id="current-year">2025</span> PictoryAvis – Tous droits réservés</p>
+                <div class="footer-links">
+                    <a href="/mentions-legales">Mentions légales</a>
+                    <a href="/politique-de-confidentialite">Confidentialité</a>
+                    <a href="/blog">Blog</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="affiliate-disclaimer">PictoryAvis est un site affilié indépendant et n'est pas affilié à Pictory.ai</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mise à jour de l'année automatique
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+      document.addEventListener('click', (e) => {
+        const link = e.target.closest('.language-switcher a');
+        if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
+      });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

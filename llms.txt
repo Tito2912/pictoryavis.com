@@ -1,0 +1,35 @@
+# PictoryAvis Content Guidelines
+
+> PictoryAvis publishes French and English guides, comparisons, and product reviews about the Pictory AI video platform. Content focuses on fast production, ease for beginners, and marketing good practices.
+
+Content should help solo entrepreneurs and small teams adopt AI-assisted video creation workflows built around Pictory.
+
+Version: 1.0
+
+## Languages
+- French (fr)
+- English (en)
+
+## Audience
+- Content creators
+- Marketing teams
+- Infopreneurs
+
+## Editorial Guidelines
+- Use a pragmatic, instructional tone tailored to solo entrepreneurs and small teams.
+- Emphasize how AI video tools accelerate scripting, editing, and repurposing workloads.
+- Reference official Pictory resources or credible benchmarks when citing performance or pricing.
+- Clarify affiliate partnerships and avoid unrealistic performance promises.
+
+## Key Pages
+- [Homepage](https://pictoryavis.com/)
+- [French Blog](https://pictoryavis.com/blog)
+- [French Comparisons](https://pictoryavis.com/blog-2)
+- [French Case Studies](https://pictoryavis.com/blog-3)
+- [English Hub](https://pictoryavis.com/en/)
+
+## Contact
+- [Email](mailto:contact.ecomshopfrance@gmail.com)
+
+## License
+- CC-BY-4.0

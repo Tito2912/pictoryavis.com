@@ -1,0 +1,686 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PictoryAvis FR | Créez des vidéos IA pro avec Pictory</title>
+    <meta name="description" content="Transformez du texte en vidéo professionnelle avec Pictory.ai. Voix off IA, sous-titres automatiques, résultats en 5 min. Essai gratuit sans carte bancaire !">
+    <meta name="robots" content="index, follow">
+
+    <!-- Balises SEO -->
+    <link rel="canonical" href="https://pictoryavis.com/" />
+    <link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
+
+    <!-- Meta Social -->
+    <meta property="og:title" content="Créez des Vidéos Pro avec l'IA Pictory">
+    <meta property="og:description" content="Transformez vos textes en vidéos professionnelles en 5 minutes avec l'IA Pictory">
+    <meta property="og:image" content="https://pictoryavis.com/images/pictory-social-share.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Interface Pictory.ai générant une vidéo professionnelle à partir d'un texte">
+    <meta property="og:url" content="https://pictoryavis.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PictoryAvis">
+    <meta property="og:locale" content="fr_FR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Créez des Vidéos Pro avec l'IA Pictory">
+    <meta name="twitter:description" content="Transformez vos textes en vidéos professionnelles en 5 minutes avec l'IA Pictory">
+    <meta name="twitter:image" content="https://pictoryavis.com/images/pictory-social-share.jpg">
+    <meta name="twitter:image:alt" content="Interface Pictory.ai générant une vidéo professionnelle à partir d'un texte">
+
+    <!-- Consent Mode v2 (par défaut en refus) + Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent','default',{
+        'ad_storage':'denied',
+        'ad_user_data':'denied',
+        'ad_personalization':'denied',
+        'analytics_storage':'denied',
+        'functionality_storage':'granted',
+        'personalization_storage':'granted',
+        'security_storage':'granted'
+      });
+    </script>
+    <script>
+      function initAnalyticsCore() {
+        gtag('js', new Date());
+        gtag('config', 'G-RSC5B64V1R', { 'anonymize_ip': true });
+      }
+      function loadAnalytics() {
+        if (window.__gaInitialized) return;
+        window.__gaInitialized = true;
+        if (window.__gaScriptLoaded) {
+          initAnalyticsCore();
+          return;
+        }
+        var script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RSC5B64V1R';
+        script.async = true;
+        script.onload = initAnalyticsCore;
+        document.head.appendChild(script);
+        window.__gaScriptLoaded = true;
+      }
+      function hasAnalyticsConsent() {
+        try {
+          return document.cookie.split('; ').some(function (pair) {
+            var parts = pair.split('=');
+            return parts[0] === 'cookie_consent' && decodeURIComponent(parts[1] || '') === 'yes';
+          });
+        } catch (e) {
+          return false;
+        }
+      }
+      if (hasAnalyticsConsent()) {
+        const scheduleAnalytics = () => {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadAnalytics, { timeout: 5000 });
+          } else {
+            setTimeout(loadAnalytics, 1500);
+          }
+        };
+        if (document.readyState === 'complete') {
+          scheduleAnalytics();
+        } else {
+          window.addEventListener('load', scheduleAnalytics, { once: true });
+        }
+      }
+    </script>
+
+    <!-- Preconnect (perf) -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://www.youtube.com" crossorigin>
+    <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+    <link rel="preconnect" href="https://s.ytimg.com" crossorigin>
+        
+    <!-- Preload -->
+    <link rel="preload" href="fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="CSS/style.min.css" as="style">
+    <link rel="preload"
+          href="images/xSwi4S1-1200.webp"
+          as="image"
+          type="image/webp"
+          imagesrcset="images/xSwi4S1-1200.webp 1200w, images/xSwi4S1.webp 1827w"
+          imagesizes="(min-width: 1024px) 50vw, 100vw">
+    <link rel="preload"
+          href="images/xSwi4S1-1200.jpg"
+          as="image"
+          type="image/jpeg"
+          imagesrcset="images/xSwi4S1-1200.jpg 1200w, images/xSwi4S1.png 1827w"
+          imagesizes="(min-width: 1024px) 50vw, 100vw">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/fonts.css">
+        <link rel="stylesheet" href="CSS/style.min.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-- Schema.org consolidated graph -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://pictoryavis.com/#organization",
+          "name": "E-Com Shop",
+          "url": "https://pictoryavis.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://pictoryavis.com/images/favicon.png",
+            "width": 512,
+            "height": 512
+          },
+          "sameAs": [
+            "https://www.youtube.com/@ByeByeSalariat"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://pictoryavis.com/#website",
+          "url": "https://pictoryavis.com/",
+          "name": "PictoryAvis",
+          "inLanguage": "fr-FR",
+          "description": "Guides et comparatifs pour creer des videos avec l'IA Pictory.",
+          "publisher": {
+            "@id": "https://pictoryavis.com/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://pictoryavis.com/#software",
+          "name": "Pictory",
+          "alternateName": "Pictory.ai",
+          "applicationCategory": [
+            "MultimediaApplication",
+            "BusinessApplication"
+          ],
+          "operatingSystem": [
+            "Web",
+            "Windows",
+            "macOS"
+          ],
+          "url": "https://pictoryavis.com/",
+          "description": "Outil de creation video par IA transformant du texte en videos professionnelles.",
+          "image": "https://pictoryavis.com/images/xSwi4S1.png",
+          "screenshot": "https://pictoryavis.com/images/xSwi4S1.png",
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://pictory.ai/",
+            "priceCurrency": "USD",
+            "lowPrice": 19,
+            "highPrice": 39,
+            "offerCount": 3,
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.8,
+            "ratingCount": 1243,
+            "bestRating": 5,
+            "worstRating": 1
+          },
+          "publisher": {
+            "@id": "https://pictoryavis.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Script de détection de langue -->
+    <script src="/js/lang-redirect.min.js" defer></script>
+    <script src="/js/lite-youtube.min.js" defer></script>
+    <script src="/js/poster-alt-fix.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo" itemscope itemtype="https://schema.org/Organization">
+    <a href="/" itemprop="url">PictoryAvis</a>
+    <meta itemprop="name" content="PictoryAvis">
+  </div>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="/" aria-current="page">Accueil</a>
+    <a href="/blog">Blog</a>
+    <a href="/mentions-legales">Mentions légales</a>
+    <a href="/politique-de-confidentialite">Confidentialité</a>
+  </nav>
+  <div class="language-switcher">
+    <a href="/" hreflang="fr" aria-current="page">FR</a> |
+    <a href="/en/" hreflang="en">EN</a>
+  </div>
+  <a href="https://pictory.ai/?ref=b3udp" class="cta-button" rel="noopener noreferrer">Essai Gratuit</a>
+</header>
+
+<main id="content">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Créez des vidéos professionnelles 10x plus vite</h1>
+            <p class="subtitle">Transformez vos articles, scripts ou idées en <strong>vidéos captivantes</strong> avec l'IA Pictory - Aucune compétence technique requise.</p>
+
+            <div class="cta-container">
+                <a href="https://pictory.ai?ref=pictoryavis" class="cta-button hero-cta" id="main-cta">
+                    <i class="fas fa-play" aria-hidden="true"></i> Démarrer l'essai gratuit
+                </a>
+
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <i class="fas fa-check-circle" style="color: var(--primary);" aria-hidden="true"></i>
+                        <span>Aucune carte requise</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fas fa-clock" style="color: var(--primary);" aria-hidden="true"></i>
+                        <span>Résultats en 5 minutes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source type="image/webp"
+                        srcset="images/xSwi4S1-1200.webp 1200w, images/xSwi4S1.webp 1827w"
+                        sizes="(min-width: 1024px) 50vw, 100vw">
+                <source type="image/jpeg"
+                        srcset="images/xSwi4S1-1200.jpg 1200w, images/xSwi4S1.png 1827w"
+                        sizes="(min-width: 1024px) 50vw, 100vw">
+                <img src="images/xSwi4S1-1200.jpg"
+                     alt="Interface Pictory.ai montrant la transformation de texte en vidéo professionnelle"
+                     loading="eager"
+                     fetchpriority="high"
+                     decoding="async"
+                     width="1200"
+                     height="642">
+            </picture>
+        </div>
+    </section>
+
+    <!-- Video Demo -->
+    <section class="demo" aria-labelledby="demo-title">
+        <div class="demo-container">
+            <h2 id="demo-title" class="section-title">Découvrez comment ça marche</h2>
+            <div class="video-wrapper">
+                <div class="lite-youtube"
+                     data-video-id="T14-8APRpXE"
+                     data-params="modestbranding=1&rel=0"
+                     data-title="Démonstration vidéo de Pictory.ai"
+                     data-poster-alt="Miniature YouTube de la démonstration vidéo Pictory">
+                    <picture class="lite-youtube__poster">
+                        <source srcset="https://i.ytimg.com/vi_webp/T14-8APRpXE/hqdefault.webp" type="image/webp">
+                        <img src="https://i.ytimg.com/vi/T14-8APRpXE/hqdefault.jpg" alt="Miniature YouTube de la démonstration vidéo Pictory" loading="lazy" width="480" height="360">
+                    </picture>
+                    <button type="button" class="lite-youtube__button">
+                        <span class="sr-only">Lancer la vidéo de démonstration</span>
+                    </button>
+                </div>
+                <noscript>
+                    <p><a href="https://www.youtube.com/watch?v=T14-8APRpXE" target="_blank" rel="noopener">Voir la vidéo sur YouTube</a></p>
+                </noscript>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" aria-labelledby="features-title">
+        <h2 id="features-title" class="section-title">La puissance de l'IA à votre service</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Rapidité extrême</h3>
+                <p>Générez des vidéos en 5 minutes là où un monteur professionnel mettrait 5 heures.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Intelligence artificielle</h3>
+                <p>L'IA sélectionne automatiquement les meilleures scènes, musiques et transitions.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Résultats prouvés</h3>
+                <p>Solution utilisée par plus de 50 000 professionnels à travers le monde.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Pictory -->
+    <section class="features benefits" aria-labelledby="benefits-title">
+        <div class="container">
+            <h2 id="benefits-title" class="section-title">Pourquoi choisir Pictory AI ?</h2>
+            <ul class="benefits-list">
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Transforme des scripts ou articles de blog en vidéos automatiquement</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Génère une voix off naturelle avec des voix réalistes (sans micro)</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Ajoute des sous-titres dynamiques automatiquement</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Découpe automatiquement les meilleurs extraits de vidéos longues</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Crée des vidéos professionnelles en quelques minutes</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Compatible avec d'autres IA comme ChatGPT et ElevenLabs</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Supporte tous les formats (YouTube, Shorts, TikTok, Reels, etc.)</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Interface intuitive en français</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials" aria-labelledby="testimonials-title">
+        <h2 id="testimonials-title" class="section-title">Ce que nos clients disent</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="platform-tag" style="background:#2a5ee8; color:white">Feefo</div>
+                <p>"Même quelqu'un sans expérience peut générer une vidéo appropriée"</p>
+                <div class="client-info">
+                    <span class="client-name">— Vladi C.</span>
+                    <span class="verified-badge"><i class="fas fa-check-circle" aria-hidden="true"></i> Client vérifié</span>
+                </div>
+                <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="platform-tag" style="background:#00a4fd; color:white">Capterra</div>
+                <p>"Un outil incroyable qui encapsule tout ce dont vous avez besoin pour produire du contenu."</p>
+                <div class="client-info">
+                    <span class="client-name">— Himadri</span>
+                    <span class="verified-badge"><i class="fas fa-check-circle" aria-hidden="true"></i> Client vérifié</span>
+                </div>
+                <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="platform-tag" style="background:#00b67a; color:white">Trustpilot</div>
+                <p>"Pictory vous fera gagner beaucoup de temps ! Plus de vidéos = plus de $$ !"</p>
+                <div class="client-info">
+                    <span class="client-name">— Débutante exécutive</span>
+                    <span class="verified-badge"><i class="fas fa-check-circle" aria-hidden="true"></i> Client vérifié</span>
+                </div>
+                <div class="stars" aria-label="5 étoiles">★★★★★</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tableau Comparatif -->
+    <section class="features comparison" aria-labelledby="comparison-title">
+        <h2 id="comparison-title" class="section-title">Pictory AI vs les autres outils</h2>
+        <div class="table-responsive">
+            <table>
+                <caption>Comparaison des fonctionnalités entre Pictory et ses concurrents</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Critères</th>
+                        <th scope="col">Pictory AI ✅</th>
+                        <th scope="col">Canva Video</th>
+                        <th scope="col">InVideo</th>
+                        <th scope="col">Lumen5</th>
+                        <th scope="col">Adobe Express</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Génération de vidéos par texte</th>
+                        <td>✅ Oui (script &rarr; vidéo)</td>
+                        <td>❌ Non</td>
+                        <td>✅ Oui</td>
+                        <td>✅ Oui</td>
+                        <td>❌ Non</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Voix off IA intégrée</th>
+                        <td>✅ Oui (voix réalistes)</td>
+                        <td>❌ Non</td>
+                        <td>✅ Oui</td>
+                        <td>✅ Oui</td>
+                        <td>❌ Non</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sous-titres automatiques</th>
+                        <td>✅ Oui</td>
+                        <td>❌ Non</td>
+                        <td>✅ Oui</td>
+                        <td>✅ Oui</td>
+                        <td>❌ Non</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Découpage automatique de contenu</th>
+                        <td>✅ Oui (YouTube, Zoom, etc.)</td>
+                        <td>❌ Non</td>
+                        <td>❌ Non</td>
+                        <td>❌ Non</td>
+                        <td>❌ Non</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Partenaires -->
+    <section class="partners" aria-labelledby="partners-title">
+        <h2 id="partners-title" class="section-title">Reconnu par les meilleures plateformes</h2>
+        <p class="partners-subtitle">Ils nous font confiance</p>
+
+        <div class="partner-grid">
+            <img src="images/partner1.png" alt="Partenaire 1" width="400" height="120" loading="lazy" decoding="async">
+            <img src="images/partner2.png" alt="Partenaire 2" width="400" height="120" loading="lazy" decoding="async">
+            <img src="images/partner3.png" alt="Partenaire 3" width="400" height="120" loading="lazy" decoding="async">
+            <img src="images/partner4.png" alt="Partenaire 4" width="400" height="120" loading="lazy" decoding="async">
+            <img src="images/partner5.png" alt="Partenaire 5" width="400" height="120" loading="lazy" decoding="async">
+            <img src="images/partner6.png" alt="Partenaire 6" width="400" height="120" loading="lazy" decoding="async">
+        </div>
+    </section>
+
+    <!-- Étapes visuelles -->
+    <section class="steps">
+        <h2 class="section-title">Créez votre vidéo en 3 étapes</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Collez votre texte</h3>
+                <p>Importez un article, script ou même une URL de blog</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>L'IA travaille pour vous</h3>
+                <p>Sélection automatique des meilleures scènes et musiques</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Téléchargez et partagez</h3>
+                <p>Votre vidéo professionnelle est prête en minutes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cas d'utilisation -->
+    <section class="use-cases">
+        <h2 class="section-title">Pictory est parfait pour...</h2>
+        <div class="use-cases-grid">
+            <div class="use-case">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Formateurs en ligne</h3>
+                <p>Transformez vos cours en vidéos engageantes</p>
+            </div>
+            <div class="use-case">
+                <i class="fas fa-store"></i>
+                <h3>E-commerçants</h3>
+                <p>Créez des vidéos produits à grande échelle</p>
+            </div>
+            <div class="use-case">
+                <i class="fas fa-user-tie"></i>
+                <h3>Freelances & Coachs</h3>
+                <p>Augmentez votre visibilité avec des vidéos percutantes</p>
+            </div>
+            <div class="use-case">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Rédacteurs & blogueurs</h3>
+                <p>Transformez vos articles en vidéos virales</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-labelledby="faq-title">
+        <h2 id="faq-title" class="section-title">Questions fréquentes</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3><button aria-expanded="false" aria-controls="faq1">Est-ce adapté aux débutants ?</button></h3>
+                <div id="faq1" class="faq-answer">
+                    <p>Oui, Pictory est conçu pour être utilisé sans aucune compétence technique. Il suffit d'un texte pour créer une vidéo professionnelle.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3><button aria-expanded="false" aria-controls="faq2">Est-ce que les vidéos sont libres de droit ?</button></h3>
+                <div id="faq2" class="faq-answer">
+                    <p>Oui, Pictory fournit des musiques, images et vidéos libres de droits dans son plan premium.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3><button aria-expanded="false" aria-controls="faq3">Puis-je ajouter ma voix ou celle d'une IA ?</button></h3>
+                <div id="faq3" class="faq-answer">
+                    <p>Oui ! Vous pouvez ajouter votre voix ou utiliser une voix off IA directement dans Pictory.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3><button aria-expanded="false" aria-controls="faq4">Est-ce que je peux l'utiliser pour TikTok ou YouTube Shorts ?</button></h3>
+                <div id="faq4" class="faq-answer">
+                    <p>Absolument. Pictory permet de créer des vidéos optimisées pour tous les formats (1:1, 9:16, 16:9...)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mega CTA -->
+    <section class="mega-cta" aria-labelledby="cta-title">
+        <h2 id="cta-title">Prêt à révolutionner votre création vidéo ?</h2>
+        <a href="https://pictory.ai?ref=pictoryavis" class="cta-button" id="final-cta">
+            COMMENCER MAINTENANT <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <p class="cta-guarantee">
+            <i class="fas fa-shield-alt" aria-hidden="true"></i> Essai gratuit - Aucun engagement
+        </p>
+    </section>
+</main>
+
+<!-- Footer (dé-nesté) -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <p>&copy; <span id="current-year">2025</span> PictoryAvis – Tous droits réservés</p>
+      <div class="footer-links">
+        <a href="/mentions-legales">Mentions légales</a>
+        <a href="/politique-de-confidentialite">Confidentialité</a>
+        <a href="/blog">Blog</a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p class="affiliate-disclaimer">PictoryAvis est un site affilié indépendant et n'est pas affilié à Pictory.ai</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const scheduleInteractive = typeof requestIdleCallback === 'function'
+    ? (cb) => requestIdleCallback(cb, { timeout: 2000 })
+    : (cb) => setTimeout(cb, 0);
+
+  const setupInteractiveHandlers = () => {
+    const yearTarget = document.getElementById('current-year');
+    if (yearTarget) yearTarget.textContent = new Date().getFullYear();
+
+    const faqButtons = document.querySelectorAll('.faq-item button');
+    if (faqButtons.length) {
+      faqButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const faqItem = button.closest('.faq-item');
+          const isOpen = faqItem && faqItem.classList.contains('open');
+          document.querySelectorAll('.faq-item').forEach((item) => item.classList.remove('open'));
+          if (!isOpen && faqItem) {
+            faqItem.classList.add('open');
+            if (typeof gtag === 'function') {
+              gtag('event', 'faq_click', {
+                'event_category': 'Engagement',
+                'event_label': button.textContent.trim()
+              });
+            }
+          }
+        });
+      });
+    }
+
+    const ctaButtons = document.querySelectorAll('.cta-button');
+    if (ctaButtons.length) {
+      ctaButtons.forEach((button) => {
+        button.addEventListener('click', function (e) {
+          if (typeof gtag !== 'function') return;
+          const destination = this.href;
+          let navigated = false;
+          const navigate = () => {
+            if (navigated) return;
+            navigated = true;
+            window.location.href = destination;
+          };
+          gtag('event', 'cta_click', {
+            'event_category': 'Conversion',
+            'event_label': this.id || 'unnamed-cta',
+            'transport_type': 'beacon',
+            'event_callback': navigate
+          });
+          e.preventDefault();
+          setTimeout(navigate, 60);
+        });
+      });
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => scheduleInteractive(setupInteractiveHandlers), { once: true });
+  } else {
+    scheduleInteractive(setupInteractiveHandlers);
+  }
+</script>
+
+<!-- Bannière de consentement cookies -->
+<div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-content">
+    <p>Nous utilisons des cookies pour améliorer votre expérience. 
+        <a href="/politique-de-confidentialite#cookies">En savoir plus</a>.
+    </p>
+    <div class="cookie-buttons">
+      <button id="accept-cookies" class="cookie-btn accept">Accepter</button>
+      <button id="reject-cookies" class="cookie-btn reject">Refuser</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
+});
+</script>
+
+<script>
+document.addEventListener('click', (e) => {
+  const link = e.target.closest('.language-switcher a');
+  if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

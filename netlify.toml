@@ -1,0 +1,286 @@
+# netlify.toml — FR/EN multipages (indexable)
+# Boucle résolue : pas de redirections de domaine ici. Netlify gère http→https et www↔apex selon le Primary domain.
+
+############################################
+# HEADERS GLOBAUX (sécurité + perf)
+############################################
+[[headers]]
+for = "/*"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"
+  Vary = "Accept-Language"
+  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+  X-Content-Type-Options = "nosniff"
+  X-Frame-Options = "SAMEORIGIN"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=*, geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=*, publickey-credentials-get=(), sync-xhr=(), usb=(), xr-spatial-tracking=()"
+  # CSP adaptée au site (YouTube + GA/GTM + Fonts Google).
+  # Garder 'unsafe-inline' tant que des scripts inline existent (CMv2, handlers…).
+  Content-Security-Policy = "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; frame-src https://www.youtube.com https://player.vimeo.com; media-src 'self' https:; object-src 'none'"
+
+# HTML : FR par défaut + revalidation agressive (meilleur crawl/refresh)
+[[headers]]
+for = "/*.html"
+  [headers.values]
+  Content-Language = "fr"
+  Cache-Control = "public, max-age=0, must-revalidate"
+
+# Pages racine ("/" et "/en/") : forcer aussi la revalidation, sinon Netlify applique le cache global 1h
+[[headers]]
+for = "/"
+  [headers.values]
+  Content-Language = "fr"
+  Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+for = "/en/"
+  [headers.values]
+  Content-Language = "en"
+  Cache-Control = "public, max-age=0, must-revalidate"
+
+# EN pour toutes les pages /en/
+[[headers]]
+for = "/en/*"
+  [headers.values]
+  Content-Language = "en"
+
+# Caching long pour assets statiques
+[[headers]]
+for = "/images/*"
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/CSS/*"
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/js/*"
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+# Robots & sitemap : TTL court
+[[headers]]
+for = "/robots.txt"
+  [headers.values]
+  Cache-Control = "public, max-age=300"
+
+[[headers]]
+for = "/sitemap.xml"
+  [headers.values]
+  Cache-Control = "public, max-age=300"
+
+############################################
+# REDIRECTS – normalisations internes UNIQUEMENT
+############################################
+[[redirects]]
+from = "https://www.pictoryavis.com/*"
+to = "https://pictoryavis.com/:splat"
+status = 301
+ force = true
+
+[[redirects]]
+from = "http://www.pictoryavis.com/*"
+to = "https://pictoryavis.com/:splat"
+status = 301
+ force = true
+
+[[redirects]]
+from = "http://pictoryavis.com/*"
+to = "https://pictoryavis.com/:splat"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en"
+to = "/en/"
+status = 301
+
+[[redirects]]
+from = "/index.html"
+to = "/"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/index.html"
+to = "/en/"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog"
+to = "/blog.html"
+status = 200
+
+[[redirects]]
+from = "/blog.html"
+to = "/blog"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog-1"
+to = "/blog-1.html"
+status = 200
+
+[[redirects]]
+from = "/blog-1.html"
+to = "/blog-1"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog-2"
+to = "/blog-2.html"
+status = 200
+
+[[redirects]]
+from = "/blog-2.html"
+to = "/blog-2"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog-3"
+to = "/blog-3.html"
+status = 200
+
+[[redirects]]
+from = "/blog-3.html"
+to = "/blog-3"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/mentions-legales"
+to = "/mentions-legales.html"
+status = 200
+
+[[redirects]]
+from = "/mentions-legales.html"
+to = "/mentions-legales"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/politique-de-confidentialite"
+to = "/politique-de-confidentialite.html"
+status = 200
+
+[[redirects]]
+from = "/politique-de-confidentialite.html"
+to = "/politique-de-confidentialite"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog"
+to = "/en/blog.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog.html"
+to = "/en/blog"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-1"
+to = "/en/blog-1.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-1.html"
+to = "/en/blog-1"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-2"
+to = "/en/blog-2.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-2.html"
+to = "/en/blog-2"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-3"
+to = "/en/blog-3.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-3.html"
+to = "/en/blog-3"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/legal-notice"
+to = "/en/legal-notice"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/legal-notice.html"
+to = "/en/legal-notice"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/legal-notice"
+to = "/en/legal-notice.html"
+status = 200
+
+[[redirects]]
+from = "/en/legal-notice.html"
+to = "/en/legal-notice"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/privacy-policy"
+to = "/en/privacy-policy"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/privacy-policy.html"
+to = "/en/privacy-policy"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/privacy-policy"
+to = "/en/privacy-policy.html"
+status = 200
+
+[[redirects]]
+from = "/en/privacy-policy.html"
+to = "/en/privacy-policy"
+status = 301
+ force = true
+############################################
+# PLUGINS : soumission auto sitemap
+############################################
+[[plugins]]
+package = "netlify-plugin-submit-sitemap"
+
+  [plugins.inputs]
+  baseUrl = "https://pictoryavis.com"
+  sitemapPath = "/sitemap.xml"
+  providers = ["bing"]
+
+[[plugins]]
+package = "./netlify/plugins/indexnow"
+
+  [plugins.inputs]
+  key = "45b97eaf4b004ae4a1339572a3e6ebf1"
+  host = "pictoryavis.com"
+  sitemapPath = "sitemap.xml"
+  keyLocation = "https://pictoryavis.com/45b97eaf4b004ae4a1339572a3e6ebf1.txt"
+  endpoint = "https://api.indexnow.org/indexnow"

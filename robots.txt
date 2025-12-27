@@ -1,0 +1,9 @@
+# robots.txt — pictoryavis.com
+# Mis à jour : 2025-09-07
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+Sitemap: https://pictoryavis.com/sitemap.xml
