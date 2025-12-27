@@ -1,2 +1,22 @@
 name: indexnow
-inputs: {}
+inputs:
+  - name: key
+    required: true
+    description: IndexNow verification key matching the file served at /<key>.txt
+  - name: sitemapPath
+    required: false
+    description: Relative path to the sitemap used to build the URL list (defaults to sitemap.xml).
+    default: sitemap.xml
+  - name: submitUrl
+    required: false
+    description: Absolute URL to submit when no sitemap is provided.
+  - name: host
+    required: false
+    description: Host name sent to IndexNow. Defaults to the host extracted from the first URL.
+  - name: keyLocation
+    required: false
+    description: Absolute URL where the verification key is hosted. Defaults to https://<host>/<key>.txt
+  - name: endpoint
+    required: false
+    description: IndexNow endpoint to call. Defaults to the shared IndexNow API.
+    default: https://api.indexnow.org/indexnow
