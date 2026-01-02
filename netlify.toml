@@ -1,5 +1,7 @@
 # netlify.toml — FR/EN multipages (indexable)
-# Boucle résolue : pas de redirections de domaine ici. Netlify gère http→https et www↔apex selon le Primary domain.
+# Domaine canonique : https://pictoryavis.com
+# Redirections de domaine (http→https + www→apex) gérées ci-dessous.
+# Pour éviter une chaîne de redirections sur http://www, désactiver "Force HTTPS" dans Netlify (Domain management → HTTPS).
 
 ############################################
 # HEADERS GLOBAUX (sécurité + perf)
