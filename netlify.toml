@@ -154,6 +154,17 @@ status = 301
  force = true
 
 [[redirects]]
+from = "/blog-4"
+to = "/blog-4.html"
+status = 200
+
+[[redirects]]
+from = "/blog-4.html"
+to = "/blog-4"
+status = 301
+ force = true
+
+[[redirects]]
 from = "/mentions-legales"
 to = "/mentions-legales.html"
 status = 200
@@ -216,6 +227,17 @@ status = 200
 [[redirects]]
 from = "/en/blog-3.html"
 to = "/en/blog-3"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-4"
+to = "/en/blog-4.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-4.html"
+to = "/en/blog-4"
 status = 301
  force = true
 
