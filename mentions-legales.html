@@ -70,6 +70,13 @@
         initAnalyticsCore();
         return;
       }
+      ['https://www.googletagmanager.com', 'https://www.google-analytics.com'].forEach(function (href) {
+        var link = document.createElement('link');
+        link.rel = 'preconnect';
+        link.href = href;
+        link.crossOrigin = 'anonymous';
+        document.head.appendChild(link);
+      });
       var script = document.createElement('script');
       script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RSC5B64V1R';
       script.async = true;
@@ -104,13 +111,6 @@
   </script>
 
 
-    <!-- Preconnect (perf) -->
-    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-    <link rel="preconnect" href="https://www.youtube.com" crossorigin>
-    <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
-    <link rel="preconnect" href="https://s.ytimg.com" crossorigin>
-        
     <!-- Preload -->
     <link rel="preload" href="fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/poppins-latin-600.woff2" as="font" type="font/woff2" crossorigin>
