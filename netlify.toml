@@ -8,7 +8,6 @@
 for = "/*"
   [headers.values]
   Cache-Control = "public, max-age=3600"
-  Vary = "Accept-Language"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   X-Content-Type-Options = "nosniff"
   X-Frame-Options = "SAMEORIGIN"
@@ -30,13 +29,13 @@ for = "/*.html"
 for = "/"
   [headers.values]
   Content-Language = "fr"
-  Cache-Control = "public, max-age=0, must-revalidate"
+  Cache-Control = "public, max-age=3600"
 
 [[headers]]
 for = "/en/"
   [headers.values]
   Content-Language = "en"
-  Cache-Control = "public, max-age=0, must-revalidate"
+  Cache-Control = "public, max-age=3600"
 
 # EN pour toutes les pages /en/
 [[headers]]
