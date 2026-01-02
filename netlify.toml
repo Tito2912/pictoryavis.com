@@ -74,17 +74,22 @@ for = "/sitemap.xml"
 # REDIRECTS – normalisations internes UNIQUEMENT
 ############################################
 [[redirects]]
-from = "/*"
+from = "http://www.pictoryavis.com/*"
 to = "https://pictoryavis.com/:splat"
 status = 301
 force = true
-conditions = { Host = ["www.pictoryavis.com"] }
+
+[[redirects]]
+from = "https://www.pictoryavis.com/*"
+to = "https://pictoryavis.com/:splat"
+status = 301
+force = true
 
 [[redirects]]
 from = "http://pictoryavis.com/*"
 to = "https://pictoryavis.com/:splat"
 status = 301
- force = true
+force = true
 
 [[redirects]]
 from = "/en"
