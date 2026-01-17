@@ -7,37 +7,37 @@
 # HEADERS GLOBAUX (sécurité + perf)
 ############################################
 [[headers]]
-for = "/*"
-  [headers.values]
-  Cache-Control = "public, max-age=3600"
-  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-  X-Content-Type-Options = "nosniff"
-  X-Frame-Options = "SAMEORIGIN"
-  Referrer-Policy = "strict-origin-when-cross-origin"
-  Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=*, geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=*, publickey-credentials-get=(), sync-xhr=(), usb=(), xr-spatial-tracking=()"
+	for = "/*"
+	  [headers.values]
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
+	  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+	  X-Content-Type-Options = "nosniff"
+	  X-Frame-Options = "SAMEORIGIN"
+	  Referrer-Policy = "strict-origin-when-cross-origin"
+	  Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=*, geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=*, publickey-credentials-get=(), sync-xhr=(), usb=(), xr-spatial-tracking=()"
   # CSP adaptée au site (YouTube + GA/GTM + Fonts Google).
   # Garder 'unsafe-inline' tant que des scripts inline existent (CMv2, handlers…).
   Content-Security-Policy = "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; frame-src https://www.youtube.com https://player.vimeo.com; media-src 'self' https:; object-src 'none'"
 
 # HTML : FR par défaut + revalidation agressive (meilleur crawl/refresh)
 [[headers]]
-for = "/*.html"
-  [headers.values]
-  Content-Language = "fr"
-  Cache-Control = "public, max-age=0, must-revalidate"
+	for = "/*.html"
+	  [headers.values]
+	  Content-Language = "fr"
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
 
 # Pages racine ("/" et "/en/") : forcer aussi la revalidation, sinon Netlify applique le cache global 1h
 [[headers]]
-for = "/"
-  [headers.values]
-  Content-Language = "fr"
-  Cache-Control = "public, max-age=3600"
+	for = "/"
+	  [headers.values]
+	  Content-Language = "fr"
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
 
 [[headers]]
-for = "/en/"
-  [headers.values]
-  Content-Language = "en"
-  Cache-Control = "public, max-age=3600"
+	for = "/en/"
+	  [headers.values]
+	  Content-Language = "en"
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
 
 # EN pour toutes les pages /en/
 [[headers]]
