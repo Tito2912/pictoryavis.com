@@ -1,7 +1,7 @@
 # netlify.toml — FR/EN multipages (indexable)
 # Domaine canonique : https://pictoryavis.com
 # Redirections de domaine (http→https + www→apex) gérées ci-dessous.
-# Pour éviter une chaîne de redirections sur http://www, désactiver "Force HTTPS" dans Netlify (Domain management → HTTPS).
+# Si une chaîne persiste sur http://www (http→https puis www→apex), désactiver "Force HTTPS" dans Netlify (Domain management → HTTPS).
 
 ############################################
 # HEADERS GLOBAUX (sécurité + perf)
@@ -76,16 +76,11 @@ for = "/sitemap.xml"
 # REDIRECTS – normalisations internes UNIQUEMENT
 ############################################
 [[redirects]]
-from = "http://www.pictoryavis.com/*"
+from = "/*"
 to = "https://pictoryavis.com/:splat"
 status = 301
 force = true
-
-[[redirects]]
-from = "https://www.pictoryavis.com/*"
-to = "https://pictoryavis.com/:splat"
-status = 301
-force = true
+conditions = {Host = ["www.pictoryavis.com"]}
 
 [[redirects]]
 from = "http://pictoryavis.com/*"
