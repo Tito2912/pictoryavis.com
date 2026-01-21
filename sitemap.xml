@@ -7,7 +7,7 @@
   <!-- Accueil FR -->
   <url>
     <loc>https://pictoryavis.com/</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
@@ -24,7 +24,7 @@
   <!-- Accueil EN -->
   <url>
     <loc>https://pictoryavis.com/en/</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-01-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
