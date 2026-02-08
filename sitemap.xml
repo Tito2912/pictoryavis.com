@@ -19,7 +19,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/"/>
+</url>
 
   <!-- Accueil EN -->
   <url>
@@ -36,7 +39,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/"/>
+</url>
 
   <!-- Hub Blog FR -->
   <url>
@@ -50,7 +56,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog"/>
+</url>
 
   <!-- Hub Blog EN -->
   <url>
@@ -64,7 +73,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog"/>
+</url>
 
   <!-- Article FR -->
   <url>
@@ -78,7 +90,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1"/>
+</url>
 
   <!-- Article EN -->
   <url>
@@ -92,7 +107,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1"/>
+</url>
 
   <!-- Article FR -->
   <url>
@@ -106,7 +124,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2"/>
+</url>
 
   <!-- Article EN -->
   <url>
@@ -120,7 +141,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2"/>
+</url>
 
   <!-- Article FR -->
   <url>
@@ -134,7 +158,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3"/>
+</url>
 
   <!-- Article EN -->
   <url>
@@ -148,7 +175,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3"/>
+</url>
 
   <!-- Article FR -->
   <url>
@@ -162,7 +192,10 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4"/>
+</url>
 
   <!-- Article EN -->
   <url>
@@ -176,6 +209,9 @@
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4"/>
+</url>
 
 </urlset>
