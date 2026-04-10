@@ -7,9 +7,9 @@
 <link rel="canonical" href="https://pictoryavis.com/blog-1"/>
 <link href="https://pictoryavis.com/blog-1" hreflang="fr" rel="alternate"/>
 <link href="https://pictoryavis.com/en/blog-1" hreflang="en" rel="alternate"/>
-<link href="https://pictoryavis.com/en/blog-1" hreflang="x-default" rel="alternate"/>
-<link href="https://pictoryavis.com/es/blog-1" hreflang="es" rel="alternate"/>
 <link href="https://pictoryavis.com/de/blog-1" hreflang="de" rel="alternate"/>
+<link href="https://pictoryavis.com/es/blog-1" hreflang="es" rel="alternate"/>
+<link href="https://pictoryavis.com/en/blog-1" hreflang="x-default" rel="alternate"/>
 <!-- Meta Social -->
 <meta property="og:title" content="Guide YouTube Pictory : vidéo IA en 5 min | PictoryAvis"/>
 <meta property="og:description" content="Guide complet : créez des vidéos YouTube en 5 minutes avec l’IA Pictory. Transformez vos textes en vidéos engageantes, sans compétences techniques."/>
@@ -132,13 +132,7 @@
     "@context":"https://schema.org",
     "@type":"WebSite",
     "name":"PictoryAvis",
-    "url":"https://pictoryavis.com/",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"https://pictoryavis.com/search?q={query}",
-      "query-input":"required name=query"
-    }
-  }
+    "url":"https://pictoryavis.com/"}
   </script><script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -179,9 +173,11 @@
 </nav>
 <div class="language-switcher">
 <a aria-current="page" href="/blog-1" hreflang="fr">FR</a> |
-    <a href="/en/blog-1" hreflang="en">EN</a>
+    <a href="/en/blog-1" hreflang="en">EN</a> |
+    <a href="/de/blog-1" hreflang="de">DE</a> |
+    <a href="/es/blog-1" hreflang="es">ES</a>
 </div>
-<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer">Essai Gratuit</a>
+<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored">Essai Gratuit</a>
 </header>
 <main class="container article-container">
 <article class="article-content" itemscope="" itemtype="https://schema.org/BlogPosting">
@@ -221,7 +217,7 @@
 <h2>Étapes pour créer une vidéo avec Pictory</h2>
 <ol class="steps-list">
 <li>
-<strong>Inscrivez-vous gratuitement</strong> sur <a href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer" target="_blank">Pictory.ai</a>
+<strong>Inscrivez-vous gratuitement</strong> sur <a href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored" target="_blank">Pictory.ai</a>
 <p>Commencez par créer un compte gratuit pour accéder à toutes les fonctionnalités.</p>
 </li>
 <li>
@@ -294,7 +290,7 @@
         </p>
 <div class="cta-box">
 <p><strong>Prêt à créer vos vidéos YouTube avec l'IA ?</strong></p>
-<a class="cta-button large" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer" target="_blank">
+<a class="cta-button large" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored" target="_blank">
 <i class="fas fa-play"></i> Essai gratuit Pictory
           </a>
 <p class="small">Aucune carte de crédit requise</p>
@@ -316,9 +312,9 @@
 <picture>
 <source sizes="(min-width: 900px) 45vw, 100vw" srcset="/images/ia-video-trends-1200.webp 1200w, /images/ia-video-trends.webp 1827w" type="image/webp">
 <source sizes="(min-width: 900px) 45vw, 100vw" srcset="/images/ia-video-trends-1200.jpg 1200w, /images/ia-video-trends.jpg 1827w" type="image/jpeg">
-<img alt="Tendances vidéo IA 2025" decoding="async" height="642" loading="lazy" src="/images/ia-video-trends-1200.jpg" width="1200"/>
+<img alt="Tendances vidéo IA 2026" decoding="async" height="642" loading="lazy" src="/images/ia-video-trends-1200.jpg" width="1200"/>
 </picture>
-<h4>Les tendances vidéo IA à suivre en 2025</h4>
+<h4>Les tendances vidéo IA à suivre en 2026</h4>
 </a>
 </div>
 </aside>
@@ -326,7 +322,7 @@
 <footer class="footer">
 <div class="footer-content">
 <div class="footer-section">
-<p>© <span id="current-year">2025</span> PictoryAvis – Tous droits réservés</p>
+<p>© <span id="current-year">2026</span> PictoryAvis – Tous droits réservés</p>
 <div class="footer-links">
 <a href="/mentions-legales">Mentions légales</a>
 <a href="/politique-de-confidentialite">Confidentialité</a>
@@ -361,6 +357,62 @@
 document.addEventListener('click', (e) => {
   const link = e.target.closest('.language-switcher a');
   if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
+});
+</script>
+<!-- Bannière de consentement cookies -->
+<div class="cookie-banner" id="cookie-banner">
+<div class="cookie-content">
+<p>Nous utilisons des cookies pour améliorer votre expérience.
+        <a href="/politique-de-confidentialite#cookies">En savoir plus</a>.
+      </p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="accept-cookies">Accepter</button>
+<button class="cookie-btn reject" id="reject-cookies">Refuser</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
 });
 </script>
 </body>

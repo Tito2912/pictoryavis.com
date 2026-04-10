@@ -7,9 +7,9 @@
 <link rel="canonical" href="https://pictoryavis.com/en/blog-1"/>
 <link href="https://pictoryavis.com/en/blog-1" hreflang="en" rel="alternate"/>
 <link href="https://pictoryavis.com/blog-1" hreflang="fr" rel="alternate"/>
-<link href="https://pictoryavis.com/en/blog-1" hreflang="x-default" rel="alternate"/>
-<link href="https://pictoryavis.com/es/blog-1" hreflang="es" rel="alternate"/>
 <link href="https://pictoryavis.com/de/blog-1" hreflang="de" rel="alternate"/>
+<link href="https://pictoryavis.com/es/blog-1" hreflang="es" rel="alternate"/>
+<link href="https://pictoryavis.com/en/blog-1" hreflang="x-default" rel="alternate"/>
 <!-- Meta Social -->
 <meta property="og:title" content="Create a YouTube video in 5 min | PictoryAvis"/>
 <meta property="og:description" content="Complete guide: Create professional YouTube videos in 5 minutes with Pictory AI. Transform your texts into engaging videos without technical skills."/>
@@ -133,13 +133,7 @@
     "@context":"https://schema.org",
     "@type":"WebSite",
     "name":"PictoryAvis",
-    "url":"https://pictoryavis.com/",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"https://pictoryavis.com/search?q={query}",
-      "query-input":"required name=query"
-    }
-  }
+    "url":"https://pictoryavis.com/"}
   </script><script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -171,9 +165,11 @@
 </nav>
 <div class="language-switcher">
 <a href="/blog-1" hreflang="fr">FR</a> |
-    <a aria-current="page" href="/en/blog-1" hreflang="en">EN</a>
+    <a aria-current="page" href="/en/blog-1" hreflang="en">EN</a> |
+    <a href="/de/blog-1" hreflang="de">DE</a> |
+    <a href="/es/blog-1" hreflang="es">ES</a>
 </div>
-<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer">Free Trial</a>
+<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored">Free Trial</a>
 </header>
 <main class="container article-container">
 <article class="article-content" itemscope="" itemtype="https://schema.org/BlogPosting">
@@ -213,7 +209,7 @@
 <h2>Steps to Create a Video with Pictory</h2>
 <ol class="steps-list">
 <li>
-<strong>Sign up for free</strong> on <a href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer" target="_blank">Pictory.ai</a>
+<strong>Sign up for free</strong> on <a href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored" target="_blank">Pictory.ai</a>
 <p>Start by creating a free account to access all features.</p>
 </li>
 <li>
@@ -286,7 +282,7 @@
         </p>
 <div class="cta-box">
 <p><strong>Ready to create your YouTube videos with AI?</strong></p>
-<a class="cta-button large" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer" target="_blank">
+<a class="cta-button large" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored" target="_blank">
 <i class="fas fa-play"></i> Free Pictory Trial
           </a>
 <p class="small">No credit card required</p>
@@ -308,9 +304,9 @@
 <picture>
 <source sizes="(min-width: 900px) 45vw, 100vw" srcset="/images/ia-video-trends-1200.webp 1200w, /images/ia-video-trends.webp 1827w" type="image/webp">
 <source sizes="(min-width: 900px) 45vw, 100vw" srcset="/images/ia-video-trends-1200.jpg 1200w, /images/ia-video-trends.jpg 1827w" type="image/jpeg">
-<img alt="AI Video Trends 2025" decoding="async" height="642" loading="lazy" src="/images/ia-video-trends-1200.jpg" width="1200"/>
+<img alt="AI Video Trends 2026" decoding="async" height="642" loading="lazy" src="/images/ia-video-trends-1200.jpg" width="1200"/>
 </picture>
-<h4>AI Video Trends to Follow in 2025</h4>
+<h4>AI Video Trends to Follow in 2026</h4>
 </a>
 </div>
 </aside>
@@ -318,7 +314,7 @@
 <footer class="footer">
 <div class="footer-content">
 <div class="footer-section">
-<p>© <span id="current-year">2025</span> PictoryAvis – All rights reserved</p>
+<p>© <span id="current-year">2026</span> PictoryAvis – All rights reserved</p>
 <div class="footer-links">
 <a href="/en/legal-notice">Legal Notice</a>
 <a href="/en/privacy-policy">Privacy</a>
@@ -354,6 +350,62 @@
     const link = e.target.closest('.language-switcher a');
     if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
   });
-  </script>
+</script>
+<!-- Cookie consent banner -->
+<div class="cookie-banner" id="cookie-banner">
+<div class="cookie-content">
+<p>We use cookies to improve your experience.
+        <a href="/en/privacy-policy#cookies">Learn more</a>.
+      </p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="accept-cookies">Accept</button>
+<button class="cookie-btn reject" id="reject-cookies">Reject</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
+});
+</script>
 </body>
 </html>

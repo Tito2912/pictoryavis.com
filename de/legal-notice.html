@@ -9,9 +9,9 @@
 <link rel="canonical" href="https://pictoryavis.com/de/legal-notice"/>
 <link href="https://pictoryavis.com/en/legal-notice" hreflang="en" rel="alternate"/>
 <link href="https://pictoryavis.com/mentions-legales" hreflang="fr" rel="alternate"/>
-<link href="https://pictoryavis.com/en/legal-notice" hreflang="x-default" rel="alternate"/>
-<link href="https://pictoryavis.com/es/legal-notice" hreflang="es" rel="alternate"/>
 <link href="https://pictoryavis.com/de/legal-notice" hreflang="de" rel="alternate"/>
+<link href="https://pictoryavis.com/es/legal-notice" hreflang="es" rel="alternate"/>
+<link href="https://pictoryavis.com/en/legal-notice" hreflang="x-default" rel="alternate"/>
 <!-- Meta Social -->
 <meta property="og:title" content="Impressum &amp; Nutzungsbedingungen | PictoryAvis"/>
 <meta property="og:description" content="Impressum für PictoryAvis: Verlegerdetails, Netlify-Hosting, Kontaktinformationen, Haftungslimits und geistiges Eigentum."/>
@@ -194,24 +194,26 @@
 <body>
 <header class="header">
 <div class="logo" itemscope="" itemtype="https://schema.org/Organization">
-<a href="/de/" itemprop="url">PizzeriaAvis</a>
+<a href="/de/" itemprop="url">PictoryAvis</a>
 <meta content="PictoryAvis" itemprop="name"/>
 </div>
 <nav aria-label="Hauptnavigation" class="nav">
-<a href="/de/">Home</a>
+<a href="/de/">Startseite</a>
 <a href="/de/blog">Blog</a>
-<a aria-current="page" href="/de/legal-notice">Rechtliche Hinweise</a>
+<a aria-current="page" href="/de/legal-notice">Impressum</a>
 <a href="/de/privacy-policy">Datenschutz</a>
 </nav>
 <div class="language-switcher">
 <a href="/mentions-legales" hreflang="fr">FR</a> |
-    <a aria-current="page" href="/de/legal-notice" hreflang="en">EN</a>
+    <a href="/en/legal-notice" hreflang="en">EN</a> |
+    <a aria-current="page" href="/de/legal-notice" hreflang="de">DE</a> |
+    <a href="/es/legal-notice" hreflang="es">ES</a>
 </div>
-<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer">Kostenlose Testversion</a>
+<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored">Kostenlos testen</a>
 </header>
 <main class="legal-container notranslate" translate="no">
 <div class="legal-header">
-<h1>Rechtliche Hinweise</h1>
+<h1>Impressum</h1>
 <p class="subtitle">Rechtliche Informationen zur PictoryAvis Website</p>
 </div>
 <div class="legal-section">
@@ -223,7 +225,7 @@
 <p><strong>Veröffentlichungsleiter:</strong> Tony Caron</p>
 <p><strong>SIREN:</strong> 934 934 308</p>
 <p><strong>MwSt.-Intracommunity:</strong> FR18 934 934 308</p>
-<p><strong>Hosting:</strong> Netting</p>
+<p><strong>Hosting:</strong> Netlify</p>
 <p>PictoryAvis.com wird als eigenständiges Editorial-Projekt betrieben, das sich auf die KI-gestützte Video-Erstellung spezialisiert hat. Das Team kuriert Tutorials, Fallstudien und Software-Rezensionen, um Unternehmern und Marketing-Teams dabei zu helfen, ihre Video-Workflows zu skalieren.</p>
 <p>Supportanfragen werden innerhalb von 72 Geschäftszeiten über die oben genannte E-Mail-Adresse bearbeitet. Für die per Post gesendeten DSGVO-bezogenen Anfragen enthalten Sie bitte einen Identitätsnachweis, damit wir Ihre Anfrage sicher überprüfen und bearbeiten können.</p>
 </div>
@@ -273,9 +275,9 @@
 <footer class="footer">
 <div class="footer-content">
 <div class="footer-section">
-<p>© <span id="current-year">2025</span> PictoryAvis – Alle Rechte vorbehalten</p>
+<p>© <span id="current-year">2026</span> PictoryAvis – Alle Rechte vorbehalten</p>
 <div class="footer-links">
-<a href="/de/legal-notice">Rechtliche Hinweise</a>
+<a href="/de/legal-notice">Impressum</a>
 <a href="/de/privacy-policy">Datenschutz</a>
 <a href="/de/blog">Blog</a>
 </div>
@@ -283,8 +285,8 @@
 <div class="footer-section">
 <div class="social-links">
 <a aria-label="Facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-<a aria-label="!" href="#"><i class="fab fa-twitter"></i></a>
-<a aria-label="In den Warenkorb" href="#"><i class="fab fa-instagram"></i></a>
+<a aria-label="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+<a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
 <a aria-label="LinkedIn" href="#"><i class="fab fa-linkedin"></i></a>
 </div>
 <p class="affiliate-disclaimer">PictoryAvis ist eine unabhängige Affiliate-Website und ist nicht mit Pictory.ai verbunden</p>
@@ -301,5 +303,61 @@
         if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
       });
     </script>
+<!-- Cookie consent banner -->
+<div class="cookie-banner" id="cookie-banner">
+<div class="cookie-content">
+<p>Wir verwenden Cookies, um Ihre Erfahrung zu verbessern.
+        <a href="/de/privacy-policy#cookies">Mehr erfahren</a>.
+      </p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="accept-cookies">Akzeptieren</button>
+<button class="cookie-btn reject" id="reject-cookies">Ablehnen</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
+});
+</script>
 </body>
 </html>

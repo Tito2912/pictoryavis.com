@@ -39,11 +39,35 @@
 	  Content-Language = "en"
 	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
 
+[[headers]]
+	for = "/de/"
+	  [headers.values]
+	  Content-Language = "de"
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
+
+[[headers]]
+	for = "/es/"
+	  [headers.values]
+	  Content-Language = "es"
+	  Cache-Control = "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400, stale-if-error=86400"
+
 # EN pour toutes les pages /en/
 [[headers]]
 for = "/en/*"
   [headers.values]
   Content-Language = "en"
+
+# DE pour toutes les pages /de/
+[[headers]]
+for = "/de/*"
+  [headers.values]
+  Content-Language = "de"
+
+# ES pour toutes les pages /es/
+[[headers]]
+for = "/es/*"
+  [headers.values]
+  Content-Language = "es"
 
 # Caching long pour assets statiques
 [[headers]]
@@ -161,6 +185,39 @@ status = 301
  force = true
 
 [[redirects]]
+from = "/blog-5"
+to = "/blog-5.html"
+status = 200
+
+[[redirects]]
+from = "/blog-5.html"
+to = "/blog-5"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog-6"
+to = "/blog-6.html"
+status = 200
+
+[[redirects]]
+from = "/blog-6.html"
+to = "/blog-6"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/blog-7"
+to = "/blog-7.html"
+status = 200
+
+[[redirects]]
+from = "/blog-7.html"
+to = "/blog-7"
+status = 301
+ force = true
+
+[[redirects]]
 from = "/mentions-legales"
 to = "/mentions-legales.html"
 status = 200
@@ -238,6 +295,39 @@ status = 301
  force = true
 
 [[redirects]]
+from = "/en/blog-5"
+to = "/en/blog-5.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-5.html"
+to = "/en/blog-5"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-6"
+to = "/en/blog-6.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-6.html"
+to = "/en/blog-6"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/en/blog-7"
+to = "/en/blog-7.html"
+status = 200
+
+[[redirects]]
+from = "/en/blog-7.html"
+to = "/en/blog-7"
+status = 301
+ force = true
+
+[[redirects]]
 from = "/legal-notice"
 to = "/en/legal-notice"
 status = 301
@@ -280,6 +370,241 @@ status = 200
 [[redirects]]
 from = "/en/privacy-policy.html"
 to = "/en/privacy-policy"
+status = 301
+ force = true
+
+############################################
+# DE/ES Pretty URLs (anti-duplicate)
+############################################
+[[redirects]]
+from = "/de/index.html"
+to = "/de/"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog"
+to = "/de/blog.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog.html"
+to = "/de/blog"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-1"
+to = "/de/blog-1.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-1.html"
+to = "/de/blog-1"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-2"
+to = "/de/blog-2.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-2.html"
+to = "/de/blog-2"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-3"
+to = "/de/blog-3.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-3.html"
+to = "/de/blog-3"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-4"
+to = "/de/blog-4.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-4.html"
+to = "/de/blog-4"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-5"
+to = "/de/blog-5.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-5.html"
+to = "/de/blog-5"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-6"
+to = "/de/blog-6.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-6.html"
+to = "/de/blog-6"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/blog-7"
+to = "/de/blog-7.html"
+status = 200
+
+[[redirects]]
+from = "/de/blog-7.html"
+to = "/de/blog-7"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/legal-notice"
+to = "/de/legal-notice.html"
+status = 200
+
+[[redirects]]
+from = "/de/legal-notice.html"
+to = "/de/legal-notice"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/de/privacy-policy"
+to = "/de/privacy-policy.html"
+status = 200
+
+[[redirects]]
+from = "/de/privacy-policy.html"
+to = "/de/privacy-policy"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/index.html"
+to = "/es/"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog"
+to = "/es/blog.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog.html"
+to = "/es/blog"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-1"
+to = "/es/blog-1.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-1.html"
+to = "/es/blog-1"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-2"
+to = "/es/blog-2.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-2.html"
+to = "/es/blog-2"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-3"
+to = "/es/blog-3.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-3.html"
+to = "/es/blog-3"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-4"
+to = "/es/blog-4.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-4.html"
+to = "/es/blog-4"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-5"
+to = "/es/blog-5.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-5.html"
+to = "/es/blog-5"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-6"
+to = "/es/blog-6.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-6.html"
+to = "/es/blog-6"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/blog-7"
+to = "/es/blog-7.html"
+status = 200
+
+[[redirects]]
+from = "/es/blog-7.html"
+to = "/es/blog-7"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/legal-notice"
+to = "/es/legal-notice.html"
+status = 200
+
+[[redirects]]
+from = "/es/legal-notice.html"
+to = "/es/legal-notice"
+status = 301
+ force = true
+
+[[redirects]]
+from = "/es/privacy-policy"
+to = "/es/privacy-policy.html"
+status = 200
+
+[[redirects]]
+from = "/es/privacy-policy.html"
+to = "/es/privacy-policy"
 status = 301
  force = true
 ############################################

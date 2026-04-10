@@ -7,11 +7,13 @@
   <!-- Accueil FR -->
   <url>
     <loc>https://pictoryavis.com/</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
@@ -20,18 +22,18 @@
       <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/"/>
 </url>
 
   <!-- Accueil EN -->
   <url>
     <loc>https://pictoryavis.com/en/</loc>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
@@ -40,178 +42,590 @@
       <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/"/>
+</url>
+
+  <!-- Accueil DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Accueil ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-social-share-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
   <!-- Hub Blog FR -->
   <url>
     <loc>https://pictoryavis.com/blog</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog"/>
 </url>
 
   <!-- Hub Blog EN -->
   <url>
     <loc>https://pictoryavis.com/en/blog</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog"/>
+</url>
+
+  <!-- Hub Blog DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Hub Blog ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/blog-social-share-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
   <!-- Article FR -->
   <url>
     <loc>https://pictoryavis.com/blog-1</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1"/>
 </url>
 
   <!-- Article EN -->
   <url>
     <loc>https://pictoryavis.com/en/blog-1</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1"/>
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-1</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-1</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-1" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-1" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-1" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/youtube-pictory-guide-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
   <!-- Article FR -->
   <url>
     <loc>https://pictoryavis.com/blog-2</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-2" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-2" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-2" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2"/>
 </url>
 
   <!-- Article EN -->
   <url>
     <loc>https://pictoryavis.com/en/blog-2</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-2" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-2" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-2" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2"/>
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-2</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-2" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-2" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-2</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-2" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-2" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-2" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/pictory-vs-lumen5-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
   <!-- Article FR -->
   <url>
     <loc>https://pictoryavis.com/blog-3</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-3" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-3" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-3" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3"/>
 </url>
 
   <!-- Article EN -->
   <url>
     <loc>https://pictoryavis.com/en/blog-3</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-3" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-3" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-3" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3"/>
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-3</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-3" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-3" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-3</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-3" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-3" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-3" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
   <!-- Article FR -->
   <url>
     <loc>https://pictoryavis.com/blog-4</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-4" />
     <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-4" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-4" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4"/>
 </url>
 
   <!-- Article EN -->
   <url>
     <loc>https://pictoryavis.com/en/blog-4</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-4" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-4" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-4" />
     <image:image>
       <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
     </image:image>
   
-    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4"/>
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-4</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-4" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-4" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-4</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-4" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-4" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-4" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article FR -->
+  <url>
+    <loc>https://pictoryavis.com/blog-5</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-5" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-5" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-5" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/blog-5</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-5" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-5" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-5" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-5</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-5" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-5" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-5" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-5</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-5" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-5" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-5" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article FR -->
+  <url>
+    <loc>https://pictoryavis.com/blog-6</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-6" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-6" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/blog-6</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-6" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-6" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-6</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-6" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-6" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-6</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-6" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-6" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-6" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/xSwi4S1-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article FR -->
+  <url>
+    <loc>https://pictoryavis.com/blog-7</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-7" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-7" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-7" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-7" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article EN -->
+  <url>
+    <loc>https://pictoryavis.com/en/blog-7</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-7" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-7" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-7" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-7" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article DE -->
+  <url>
+    <loc>https://pictoryavis.com/de/blog-7</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-7" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-7" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-7" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-7" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
+</url>
+
+  <!-- Article ES -->
+  <url>
+    <loc>https://pictoryavis.com/es/blog-7</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/blog-7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/blog-7" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/blog-7" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/blog-7" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/blog-7" />
+    <image:image>
+      <image:loc>https://pictoryavis.com/images/ia-video-trends-1200.jpg</image:loc>
+    </image:image>
+  
 </url>
 
 </urlset>

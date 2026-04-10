@@ -1,5 +1,5 @@
 # robots.txt — pictoryavis.com
-# Mis à jour : 2025-09-07
+# Mis à jour : 2026-04-09
 
 User-agent: *
 Disallow: /admin/

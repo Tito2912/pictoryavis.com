@@ -9,9 +9,9 @@
 <link rel="canonical" href="https://pictoryavis.com/en/legal-notice"/>
 <link href="https://pictoryavis.com/en/legal-notice" hreflang="en" rel="alternate"/>
 <link href="https://pictoryavis.com/mentions-legales" hreflang="fr" rel="alternate"/>
-<link href="https://pictoryavis.com/en/legal-notice" hreflang="x-default" rel="alternate"/>
-<link href="https://pictoryavis.com/es/legal-notice" hreflang="es" rel="alternate"/>
 <link href="https://pictoryavis.com/de/legal-notice" hreflang="de" rel="alternate"/>
+<link href="https://pictoryavis.com/es/legal-notice" hreflang="es" rel="alternate"/>
+<link href="https://pictoryavis.com/en/legal-notice" hreflang="x-default" rel="alternate"/>
 <!-- Meta Social -->
 <meta property="og:title" content="Legal Notice &amp; Terms of Use | PictoryAvis"/>
 <meta property="og:description" content="Legal notice for PictoryAvis: publisher details, Netlify hosting, contact info, liability limits, and intellectual property terms."/>
@@ -205,9 +205,11 @@
 </nav>
 <div class="language-switcher">
 <a href="/mentions-legales" hreflang="fr">FR</a> |
-    <a aria-current="page" href="/en/legal-notice" hreflang="en">EN</a>
+    <a aria-current="page" href="/en/legal-notice" hreflang="en">EN</a> |
+    <a href="/de/legal-notice" hreflang="de">DE</a> |
+    <a href="/es/legal-notice" hreflang="es">ES</a>
 </div>
-<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer">Free Trial</a>
+<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored">Free Trial</a>
 </header>
 <main class="legal-container notranslate" translate="no">
 <div class="legal-header">
@@ -273,7 +275,7 @@
 <footer class="footer">
 <div class="footer-content">
 <div class="footer-section">
-<p>© <span id="current-year">2025</span> PictoryAvis – All rights reserved</p>
+<p>© <span id="current-year">2026</span> PictoryAvis – All rights reserved</p>
 <div class="footer-links">
 <a href="/en/legal-notice">Legal Notice</a>
 <a href="/en/privacy-policy">Privacy</a>
@@ -301,5 +303,61 @@
         if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
       });
     </script>
+<!-- Cookie consent banner -->
+<div class="cookie-banner" id="cookie-banner">
+<div class="cookie-content">
+<p>We use cookies to improve your experience.
+        <a href="/en/privacy-policy#cookies">Learn more</a>.
+      </p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="accept-cookies">Accept</button>
+<button class="cookie-btn reject" id="reject-cookies">Reject</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
+});
+</script>
 </body>
 </html>

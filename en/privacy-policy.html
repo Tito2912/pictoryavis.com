@@ -9,9 +9,9 @@
 <link rel="canonical" href="https://pictoryavis.com/en/privacy-policy"/>
 <link href="https://pictoryavis.com/en/privacy-policy" hreflang="en" rel="alternate"/>
 <link href="https://pictoryavis.com/politique-de-confidentialite" hreflang="fr" rel="alternate"/>
-<link href="https://pictoryavis.com/en/privacy-policy" hreflang="x-default" rel="alternate"/>
-<link href="https://pictoryavis.com/es/privacy-policy" hreflang="es" rel="alternate"/>
 <link href="https://pictoryavis.com/de/privacy-policy" hreflang="de" rel="alternate"/>
+<link href="https://pictoryavis.com/es/privacy-policy" hreflang="es" rel="alternate"/>
+<link href="https://pictoryavis.com/en/privacy-policy" hreflang="x-default" rel="alternate"/>
 <!-- Meta Social -->
 <meta property="og:title" content="Privacy Policy (GDPR) | PictoryAvis"/>
 <meta property="og:description" content="PictoryAvis privacy policy: what personal data we collect, why we process it, how long we store it, the cookies in use, and how to exercise your GDPR rights."/>
@@ -213,14 +213,16 @@
 </nav>
 <div class="language-switcher">
 <a href="/politique-de-confidentialite" hreflang="fr">FR</a> |
-    <a aria-current="page" href="/en/privacy-policy" hreflang="en">EN</a>
+    <a aria-current="page" href="/en/privacy-policy" hreflang="en">EN</a> |
+    <a href="/de/privacy-policy" hreflang="de">DE</a> |
+    <a href="/es/privacy-policy" hreflang="es">ES</a>
 </div>
-<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer">Free Trial</a>
+<a class="cta-button" href="https://pictory.ai?ref=pictoryavis" rel="noopener noreferrer sponsored">Free Trial</a>
 </header>
 <main class="privacy-container notranslate" translate="no">
 <div class="privacy-header">
 <h1>Privacy Policy</h1>
-<p class="subtitle">Last updated: July 2025</p>
+<p class="subtitle">Last updated: April 2026</p>
 </div>
 <section class="privacy-section">
 <h2>Preamble</h2>
@@ -354,7 +356,7 @@
 <section class="privacy-section">
 <h2>Updates</h2>
 <p>
-                This privacy policy may be updated to reflect legal or technical developments. The current version is dated July 2025.
+                This privacy policy may be updated to reflect legal or technical developments. The current version is dated April 2026.
             </p>
 <p>We will inform you of significant changes by email or via a visible notification on our website.</p>
 </section>
@@ -365,7 +367,7 @@
 <footer class="footer">
 <div class="footer-content">
 <div class="footer-section">
-<p>© <span id="current-year">2025</span> PictoryAvis – All rights reserved</p>
+<p>© <span id="current-year">2026</span> PictoryAvis – All rights reserved</p>
 <div class="footer-links">
 <a href="/en/legal-notice">Legal Notice</a>
 <a href="/en/privacy-policy">Privacy</a>
@@ -391,6 +393,62 @@
 document.addEventListener('click', (e) => {
   const link = e.target.closest('.language-switcher a');
   if (link) { try { localStorage.setItem('lang_redirect_done', '1'); } catch(e){} }
+});
+    </script>
+<!-- Cookie consent banner -->
+<div class="cookie-banner" id="cookie-banner">
+<div class="cookie-content">
+<p>We use cookies to improve your experience.
+        <a href="/en/privacy-policy#cookies">Learn more</a>.
+      </p>
+<div class="cookie-buttons">
+<button class="cookie-btn accept" id="accept-cookies">Accept</button>
+<button class="cookie-btn reject" id="reject-cookies">Reject</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const banner = document.getElementById('cookie-banner');
+  const accept = document.getElementById('accept-cookies');
+  const reject = document.getElementById('reject-cookies');
+
+  function setCookie(name, value, days) {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+  }
+
+  function getCookie(name) {
+    return document.cookie.split('; ').reduce((r, v) => {
+      const parts = v.split('=');
+      return parts[0] === name ? decodeURIComponent(parts[1]) : r
+    }, '');
+  }
+
+  if (!getCookie('cookie_consent')) {
+    banner.style.display = 'block';
+  }
+
+  accept.addEventListener('click', function () {
+    setCookie('cookie_consent', 'yes', 365);
+    banner.style.display = 'none';
+    if (typeof loadAnalytics === 'function') {
+      loadAnalytics();
+    }
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
+      });
+    }
+  });
+
+  reject.addEventListener('click', function () {
+    setCookie('cookie_consent', 'no', 365);
+    banner.style.display = 'none';
+  });
 });
 </script>
 </body>
