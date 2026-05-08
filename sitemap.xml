@@ -628,4 +628,101 @@
   
 </url>
 
+
+  <url>
+    <loc>https://pictoryavis.com/mentions-legales</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/politique-de-confidentialite</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/en/legal-notice</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/en/privacy-policy</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/de/legal-notice</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/de/privacy-policy</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/es/legal-notice</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/mentions-legales" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/legal-notice" />
+  </url>
+
+  <url>
+    <loc>https://pictoryavis.com/es/privacy-policy</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pictoryavis.com/politique-de-confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pictoryavis.com/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://pictoryavis.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://pictoryavis.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pictoryavis.com/en/privacy-policy" />
+  </url>
+
 </urlset>
